@@ -6,7 +6,7 @@ You need to add 'vkontakte_token' to KEY_RESOURCES in the `core/base.py` of the 
 
 Then you have to retrieve token for VK - [https://vk.com/dev/auth_mobile](https://vk.com/dev/auth_mobile), [https://vk.com/dev/authentication](https://vk.com/dev/authentication). 
 
-If you don't want to go full dev way, you can retrieve token via some app like [https://oauth.vk.com/authorize?client_id=35569&scope=groups&redirect_uri=https://oauth.vk.com/blank.html&display=page&v=5.0&response_type=token](https://oauth.vk.com/authorize?client_id=35569&scope=groups&redirect_uri=https://oauth.vk.com/blank.html&display=page&v=5.0&response_type=token) (use it on your own risk).
+If you don't want to go full dev way, you can retrieve token via some app like [https://oauth.vk.com/authorize?client_id=35569&scope=groups&redirect_uri=https://oauth.vk.com/blank.html&display=page&v=5.0&response_type=token](https://oauth.vk.com/authorize?client_id=35569&scope=groups&redirect_uri=https://oauth.vk.com/blank.html&display=page&v=5.0&response_type=token) (use it on your own risk) and copy resulting access_token from the second url.
 
 Copy `vkontakte.py` into `modules/recon/companies-contacts/`.
 
